@@ -1,0 +1,25 @@
+.collapse {
+    overflow: hidden;
+    position: relative;
+    height:0;
+    transition-property: height;
+    transition-duration: var(--standard-time);
+    transition-timing-function: ease;
+}
+
+.collapse.appear {
+    height: 1rem;
+}
+
+@keyframes disappear {
+    0% {
+        display: initial;
+    }
+    100% {
+        display: none;
+    }
+}
+
+.collapse.disappear {
+    height: 0; 
+}

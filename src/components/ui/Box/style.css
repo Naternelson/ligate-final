@@ -1,0 +1,39 @@
+.fullpage {
+    height: 100vh; 
+}
+
+.container {
+    margin: auto;
+    max-width: 100%;
+    transition: margin 300ms ease, max-width 300ms ease ; 
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px; 
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px; 
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px; 
+    }
+}

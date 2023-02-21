@@ -1,0 +1,7 @@
+.test {
+    background-color: hsl(202, 100%, 20%);
+}
+
+.main {
+    transition: background-color 300ms ease;
+}
